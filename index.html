@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>اyassin</title>
+    <meta name="description" content="Web Developer">
+          
+    <!--=== Share TAGS ===-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a style="display: table;margin: 0 auto" href="yassin" class="navbar-brand"><h1>Yassin<em>Ai21</em></h1></a>
+            </nav>
+        </div>
+    </header>
+    <div class="home d-flex align-items-center" id="home">
+        <div id="particles-js" class="particles-js"><canvas class="particles-js-canvas-el" width="1903" height="582" style="width: 100%; height: 100%;"></canvas></div>
+        <div class="container">
+            <div class="introduction">
+                <img src="https://allmylinks.com/upload/User/photo/h/o/-/Hv0ayQAy-HSsW5mPOjN9JLyf6RnBxHBl.jpg" alt="yassin web developer" class="mb-4 intro-profile-picture">
+                <h1 class="mb-2 mt-0">Yassin EL Aouili</h1>
+                <ul class="social-icons light list-inline mb-0 mt-4">
+                    <li class="list-inline-item"><a target="_NEW" href="https://wa.me/00212618324050"><i class="fab fa-whatsapp"></i><span>+2212618324050</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://www.facebook.com/yassinai21"><i class="fab fa-facebook-f"></i><span>YassinAi21</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://twitter.com/yassinai21"><i class="fab fa-twitter"></i><span>YassinAi21</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://www.instagram.com/yassinai21"><i class="fab fa-instagram"></i><span>YassinAi21</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: {
+                    type: "circle",
+                    stroke: { width: 0, color: "#000000" },
+                    polygon: { nb_sides: 5 },
+                    image: { src: "img/github.svg", width: 100, height: 100 }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.2,
+                    width: 3
+                },
+                move: {
+                    enable: true,
+                    speed: 5,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" },
+                    resize: true
+                },
+                modes: {
+                    grab: { distance: 600, line_linked: { opacity: 1 } },
+                    bubble: { distance: 600, size: 40, duration: 2, opacity: 8, speed: 3 },
+                    repulse: { distance: 600, duration: 0.4 },
+                    push: { particles_nb: 6 },
+                    remove: { particles_nb: 2 }
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+    <div class="footer">
+        <div class="rights">YassinAi21 © 2017 - 2022</div>
+    </div>
+</div>
+</body>
+</html>
